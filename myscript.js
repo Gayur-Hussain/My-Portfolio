@@ -43,38 +43,38 @@ window.onscroll = () => {
 
 /*========================= scroll reveal ============================*/
 
-ScrollReveal({ 
-    reset: true,
-    distance:'15px',
-    duration:2000,
-    delay:200
- });
+// ScrollReveal({ 
+//     reset: true,
+//     distance:'15px',
+//     duration:2000,
+//     delay:200
+//  });
 
 
- ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
- ScrollReveal().reveal('.home-img, .service-container, .project-box, .contact form  ', { origin: 'bottom' });
- ScrollReveal().reveal('.home-content h1, .about-img  ', { origin: 'left' });
- ScrollReveal().reveal('.home-content p, .about-content  ', { origin: 'right' });
-
-
-
+//  ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+//  ScrollReveal().reveal('.home-img, .service-container, .project-box, .contact form  ', { origin: 'bottom' });
+//  ScrollReveal().reveal('.home-content h1, .about-img  ', { origin: 'left' });
+//  ScrollReveal().reveal('.home-content p, .about-content  ', { origin: 'right' });
 
 
 
- gsap.from(".logo", {
-    y: -100,
-    duration: 1.3,
-    delay: 0.3,
-    opacity:0
 
 
-})
-gsap.from("nav", {
-    y: -100,
-    duration: 1.3,
-    delay: 0.3,
-    opacity:0,
-    stagger:0.2
+
+//  gsap.from(".logo", {
+//     y: -100,
+//     duration: 1.3,
+//     delay: 0.3,
+//     opacity:0
 
 
-})
+// })
+// gsap.from("nav", {
+//     y: -100,
+//     duration: 1.3,
+//     delay: 0.3,
+//     opacity:0,
+//     stagger:0.2
+
+
+// })
